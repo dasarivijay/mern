@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: opacity 0.3s ease, box-shadow 0.3s ease; 
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+        }
+
+        .apply {
+            background-color: blue;
+            color: white;
+        }
+
+        .apply:hover {
+            opacity: 0.85; 
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); 
+        }
+
+        .save {
+            background-color: white;
+            color: black;
+            border: 1px solid black;
+        }
+
+        .save:hover {
+            opacity: 0.85; 
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); 
+        }
+    </style>
+</head>
+<body>
+
+    <button class="button apply">Apply on Company Website</button>
+    <button class="button save">Save</button>
+
+</body>
+</html>
